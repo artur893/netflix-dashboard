@@ -1,0 +1,21 @@
+.home-page {
+    width: 100vw;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    
+    & &__content {
+        position: relative;
+        box-sizing: border-box;
+        border: solid 1px white;
+        width: 1440px;
+    }
+
+    & &__main-img {
+        position: absolute;
+        width: 1440px;
+        top: 0px;
+        // margin-top: 64px;
+        z-index: 1;
+    }
+}

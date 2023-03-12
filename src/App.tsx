@@ -4,7 +4,6 @@ import { MainMenuGlobalComponent } from "@/global-components";
 
 const App: React.FC = () => (
   <>
-    <MainMenuGlobalComponent />
     <HomePage msg="INVO Academy Starter with React + TypeScript" />
   </>
 );

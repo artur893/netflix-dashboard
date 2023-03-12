@@ -1,0 +1,57 @@
+.movie-details {
+    position: relative;
+    width: 650px;
+    z-index: 2;
+    margin-top: 130px;
+    margin-left: 64px;
+
+    & &__top {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+
+    & &__top-10 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--accent-color);
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+        border-radius: 12px;
+    }
+
+    & &__high {
+        font-size: 600;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    & &__low {
+        font-size: 600;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    & &__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.24px;
+    }
+
+    & &__image {
+        width: 650px;
+    }
+
+    & &__description {
+        width: 549px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21.6px;
+        letter-spacing: -0.16px;
+        margin-top: 24px;
+    }
+}
