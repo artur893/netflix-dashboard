@@ -23,6 +23,7 @@
   &.more-info {
     color: var(--text-color);
     background-color: var(--btn-bg-color);
+    backdrop-filter: blur(8px);
   }
 
   &.more-info:hover {

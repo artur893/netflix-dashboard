@@ -1,8 +1,9 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import wednesdayImg from '../../../../assets/images/wednesday.png'
 import playIcon from '../../../../assets/images/play.svg'
 import infoIcon from '../../../../assets/images/info-circle.svg'
-import { ButtonGlobalComponent } from "@/global-components/Button/ButtonGlobalComponent"
+import { ButtonGlobalComponent } from "@/global-components/ButtonGlobalComponent/ButtonGlobalComponent"
 import './MovieDetails.scss'
 
 export const MovieDetails: React.FC = () => {
@@ -21,9 +22,9 @@ export const MovieDetails: React.FC = () => {
                 prowadzi śledztwo w sprawie serii zabójstw, przysparzając sobie
                 nowych przyjaciół i wrogów w Akademii Nevermore.</p>
             <div className="movie-details__buttons">
-                <ButtonGlobalComponent text="Odtwórz" icon={playIcon} className='play' />
-                <ButtonGlobalComponent text="Więcej informacji" icon={infoIcon} className='more-info' />
+                <Link to='#'><ButtonGlobalComponent text="Odtwórz" icon={playIcon} className='play' /> </Link>
+                <Link to='#'><ButtonGlobalComponent text="Więcej informacji" icon={infoIcon} className='more-info' /></Link>
             </div>
-        </section>
+        </section >
     )
 }

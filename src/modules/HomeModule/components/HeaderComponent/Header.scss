@@ -5,7 +5,7 @@
         position: relative;
         height: 64px;
         background-color: var(--bg-color);
-        filter: drop-shadow(0px 16px 16px var(--bg-color));
+        box-shadow: 0px 30px 100px 20px var(--bg-color);
         z-index: 2;
 
         img {
