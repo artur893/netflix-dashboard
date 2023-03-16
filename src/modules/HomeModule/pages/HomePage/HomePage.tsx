@@ -26,6 +26,8 @@ export const HomePage: React.FC<IProps> = ({ msg }) => {
         <Header />
         <MovieDetails />
         <SliderBar movieIcons={movieIcons} category='Docenione przez krytyków' />
+        <SliderBar movieIcons={movieIcons} category='Popularne teraz' />
+        <SliderBar movieIcons={movieIcons} category='Obejrzyj ponownie' />
       </div>
     </div>
   );
