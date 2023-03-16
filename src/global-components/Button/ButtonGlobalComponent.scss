@@ -13,11 +13,24 @@
   letter-spacing: -0.5px;
 
   &.play {
-    background-color: #FFFFFF;
+    background-color: var(--white-btn-bg-color);
+  }
+
+  &.play:hover {
+    background-color: var(--white-btn-bg-color-hover);
   }
 
   &.more-info {
     color: var(--text-color);
-    background-color: var(--button-bg-color);
+    background-color: var(--btn-bg-color);
   }
+
+  &.more-info:hover {
+    color: var(--text-color);
+    background-color: var(--btn-bg-color-hover);
+  }
+}
+
+.global-button:hover {
+  cursor: pointer;
 }
