@@ -1,5 +1,8 @@
 import React from "react"
 import wednesdayImg from '../../../../assets/images/wednesday.png'
+import playIcon from '../../../../assets/images/play.svg'
+import infoIcon from '../../../../assets/images/info-circle.svg'
+import { ButtonGlobalComponent } from "@/global-components/Button/ButtonGlobalComponent"
 import './MovieDetails.scss'
 
 export const MovieDetails: React.FC = () => {
@@ -17,7 +20,10 @@ export const MovieDetails: React.FC = () => {
             <p className="movie-details__description">Makabrycznie bystra i sarkastyczna Wednesday Addams
                 prowadzi śledztwo w sprawie serii zabójstw, przysparzając sobie
                 nowych przyjaciół i wrogów w Akademii Nevermore.</p>
-            <div className="movie-details__buttons"></div>
+            <div className="movie-details__buttons">
+                <ButtonGlobalComponent text="Odtwórz" icon={playIcon} className='play' />
+                <ButtonGlobalComponent text="Więcej informacji" icon={infoIcon} className='more-info' />
+            </div>
         </section>
     )
 }

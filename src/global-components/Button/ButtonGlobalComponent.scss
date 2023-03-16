@@ -1,0 +1,23 @@
+.global-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  height: 56px;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 444px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  letter-spacing: -0.5px;
+
+  &.play {
+    background-color: #FFFFFF;
+  }
+
+  &.more-info {
+    color: var(--text-color);
+    background-color: var(--button-bg-color);
+  }
+}

@@ -52,6 +52,12 @@
         font-size: 18px;
         line-height: 21.6px;
         letter-spacing: -0.18px;
-        margin-top: 24px;
+        margin-top: 21px;
+        margin-bottom: 40px;
+    }
+
+    & &__buttons {
+        display: flex;
+        gap: 16px;
     }
 }
